@@ -4,8 +4,7 @@ import Banner from "./components/Banner";
 import BannerButton from "./components/BannerButton";
 import Separator from "./components/Separator"
 import Portfolio from "./components/Portfolio"
-
-
+import Blog from "./components/Blog"
 
 
 export default function Home() {
@@ -17,6 +16,8 @@ export default function Home() {
       <BannerButton/>
       <Separator/>
       <Portfolio/>
+      <Separator/>
+      <Blog/>
     </div>
   );
 }
